@@ -1,0 +1,12 @@
+[
+  "test_shopping.py::test_is_in_shopping_list[apple-True]",
+  "test_shopping.py::test_is_in_shopping_list[pear-True]",
+  "test_shopping.py::test_is_in_shopping_list[ pear-True]",
+  "test_tachycardia.py::test_is_tachycardic[tachycardic-True]",
+  "test_tachycardia.py::test_is_tachycardic[ tachycardic-True]",
+  "test_tachycardia.py::test_is_tachycardic[tachycardic -True]",
+  "test_tachycardia.py::test_is_tachycardic[Tachycardic-True]",
+  "test_tachycardia.py::test_is_tachycardic[tachy cardic-True]",
+  "test_tachycardia.py::test_is_tachycardic[Tachy cardic-True]",
+  "test_tachycardia.py::test_is_tachycardic[ Tachy Cardic-True]"
+]

@@ -1,0 +1,5 @@
+name: olivia-venv
+dependencies:
+  - python=3.6
+  - ipython
+  - pytest
