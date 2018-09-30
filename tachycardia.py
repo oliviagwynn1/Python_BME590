@@ -1,16 +1,10 @@
 tachycardic = ["tachycardic"] 
 
+import string
+
 def is_tachycardic(candidate):
-	strip = candidate.strip()
-	case = strip.lower()
-	space = case.replace(" ", "")
+	new_candidate = candidate.strip().lower().replace(" ", "")
 	for word in tachycardic:
-		if word == strip:
+		if word == new_candidate:
 			return True
-		if word == case:
-			return True
-		if word == space:
-			return True
-	return False
-	
-			
+		return False			
